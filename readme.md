@@ -1,6 +1,11 @@
 #Physical Connection Interface
+https://www.npmjs.com/package/physical
 
-Physical is an interface for a cross system 
+Physical is an interface for a cross environment, cross system connection
+protocol that enables a democratization of internet resources by closing 
+the gap between servers and clients in the connectivity department
+
+Ensures you can negotiate connections and send data.
 
 ##Reference Implementations
 * https://www.npmjs.com/package/physical-node

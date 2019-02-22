@@ -1,6 +1,6 @@
 {
   "name": "physical",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "virtual physical network infrastructure layer interface",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,10 +17,13 @@
     "p2p",
     "p2s",
     "s2p",
-    "s2s",
-    "stream"
+    "s2s"
   ],
   "author": "emdiet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emdiet/physical.user.link.git"
+  },
   "license": "UNLICENSED",
   "devDependencies": {
     "typescript": "^3.3.3333"
