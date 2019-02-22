@@ -1,0 +1,25 @@
+{
+  "name": "physical",
+  "version": "1.0.0",
+  "description": "virtual physical network infrastructure layer interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "physical",
+    "network",
+    "infrastructure",
+    "socket",
+    "p2p",
+    "p2s",
+    "s2p",
+    "s2s",
+    "stream"
+  ],
+  "author": "emdiet",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
