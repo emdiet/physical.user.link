@@ -1,3 +1,3 @@
 import {Handshake} from "./Handshake";
 
-export class ACK extends Handshake{}
+export interface ACK extends Handshake{}

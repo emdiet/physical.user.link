@@ -1,11 +1,11 @@
 import {SYNQ} from "./SYNQ";
 import {ACK} from "./ACK";
 
-export abstract class Physical {
-    public abstract request() : SYNQ;
-    public abstract respond(synq : SYNQ) : ACK;
-    public abstract open(ack : ACK) : void;
-    public abstract onMessage : (message : string) => void;
-    public abstract send(message : string) : void;
-    public abstract close() : void;
+export interface Physical {
+    request() : SYNQ;
+    respond(synq : SYNQ) : ACK;
+    open(ack : ACK) : void;
+    onMessage : (message : string) => void;
+    send(message : string) : void;
+    close() : void;
 }

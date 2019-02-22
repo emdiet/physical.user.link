@@ -2,8 +2,11 @@
   "name": "physical",
   "version": "1.0.0",
   "description": "virtual physical network infrastructure layer interface",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "prepare" : "npm run build",
+    "build" : "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

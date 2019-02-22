@@ -1,4 +1,4 @@
-export class Handshake {
-    public author: string;
-    public body: string;
+export interface Handshake {
+    author: string;
+    body: string;
 }
