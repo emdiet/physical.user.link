@@ -13,10 +13,10 @@ Ensures you can negotiate connections and send data.
 
 ### Interoperability of known implementations
 
-|_protocol : body_|physical-node|physical-chrome|
+|_requester\responder_|physical-node|physical-chrome|
 |---|---|---|
-|**physical-node** | Socket : URI | WebSocket : URI |
-|**physical-chrome** | WebSocket : URI | WebRTC : SDP|
+|**physical-node** | WebSocket P/C |  WebSocket P/C |
+|**physical-chrome** |  WebSocket **C/P** | WebRTC |
 
 ## Usage:
 
